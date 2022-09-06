@@ -7,7 +7,7 @@ data class Person3(var name: String, var  age: Int)
 class Developer(name: String) : Person(name, 10) //Los objetos de la clase Developer tendrán los atributos 'name' y 'age'(valor 10 fijo)
 
 fun main(): Unit {
-    val p = Developer("Jhordy")
+    val p = Developer("JhordyLS")
     val p2 = Person3("Joel", 25)
     var list = listOf(1, 2, 3, 4, 5)
     var list2 = mutableListOf<Int>(1, 2, 3, 4, 5)
